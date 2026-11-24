@@ -1,0 +1,10 @@
+{
+  "status": "200",
+  "meta": {"total": "2", "limit": "100", "offset": "0"},
+  "results": {
+    "vacancies": [
+      {"vacancy": {"id": "demo-001", "vac_url": "https://trudvsem.ru/vacancy/card/demo-001", "job-name": "Бухгалтер", "salary_min": 45000, "salary_max": 60000, "currency": "руб.", "schedule": "Гибкий график", "employment": "Полная занятость", "duty": "Ведение бухгалтерского учета, подготовка отчетности.", "requirement": {"education": "Среднее профессиональное", "experience": "От 1 года"}, "addresses": {"address": [{"location": "Калининград"}]}, "company": {"name": "Учебная организация"}}},
+      {"vacancy": {"id": "demo-002", "job-name": "Специалист", "duty": "Работа с документами", "schedule": "5/2, с 9:00 до 18:00", "employment": "Полная занятость", "salary": "от 50000 руб. в месяц", "requirement": "Внимательность", "addresses": {"address": [{"location": "Гусев"}]}}}
+    ]
+  }
+}

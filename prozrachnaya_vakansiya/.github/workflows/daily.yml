@@ -1,0 +1,20 @@
+name: Daily vacancy report
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *' # 09:00 Europe/Kaliningrad (UTC+3); adjust as needed
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Fetch vacancies and analyze (rules only on hosted runner)
+        run: python main.py api --no-ai
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vacancy-report
+          path: reports/latest.json

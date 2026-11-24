@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-11-24T19:45:48.459141+00:00",
+  "region": "39",
+  "vacancies_count": 2,
+  "vacancies": [
+    {
+      "id": "demo-001",
+      "url": "https://trudvsem.ru/vacancy/card/demo-001",
+      "issues": [
+        {
+          "topic": "График",
+          "source_field": "schedule / description",
+          "quote": "гибкий график",
+          "problem": "Использована общая формулировка без конкретных дней и часов работы.",
+          "recommendation": "Уточните, какие дни и часы предусмотрены, сколько длится смена и как составляется расписание."
+        }
+      ]
+    },
+    {
+      "id": "demo-002",
+      "url": "",
+      "issues": []
+    }
+  ]
+}
